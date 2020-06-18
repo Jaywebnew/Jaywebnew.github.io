@@ -8,50 +8,58 @@
 </head>
 
 <body>
- 
 
+<header role="banner">
 
-<h1><img src="images/bigcat.jpg" alt="logo"><br>THE BIG CATS</h1>
+<img src="images/bigcat.jpg" class="center" alt="logo">
+<br>
+<h1 id="start">THE BIG CATS</h1>
+<nav role="navigation">
+<ul>
+<li><a href="cats/index.html">CATS</a></li>
+<li><a href="history/index.html"> HISTORY</a></li>
+<li><a href="habitat/index.html"> HABITAT</a></li>
+<li><a href="conservation/index.html"> CONSERVATION</a></li>
+</ul>
+</nav>
 
- 
-  <div class="center">
+</header>
 
+<main role="main">
+
+<div class="center">
 <p>We look at each <em>species</em> individualty and make comparisons between them.</p>
- </div>
-  
-  <div class="center">
-  
- <h2>THE FIVE FELINES</h2>
+
+<br>
+<h2>THE FIVE FELINES</h2>
 
 <ul>
-<li>Lion </li>
+<li><a href="cats/lion.html">Lion</a> </li>
 <li>Tiger</li>
 <li>Jaguar</li>
 <li>Leopard</li>
 <li>Snow Leopard </li> 
 </ul> 
 
- </div>
- 
-
-  
-  <div class="center">
 
 <h2>THE TOPICS</h2>
 
 <ul>
- <li><a href="history/history.html"> History</a> </li>
+<li><a href="history/index.html">History</a> </li>
 <li>Physical Charististics</li>
-<li>Habitat</li>
+<li><a href="habitat/index.html">Habitat</a></li>
 <li>Behaviour and Ecology</li>
- <li>Conservation</li> 
+<li>Conservation</li> 
 </ul>
-  
- </div>
 
+</div>
+
+</main>
+<br>
+<br>
 <h3>LINKS</h3>
 <br>
-<a href="https://en.wikipedia.org/wiki/Big_cat">Go to Wiki Big Cats page</a>
+<a href="https://en.wikipedia.org/wiki/Big_cat" target="_blank">Go to Wiki Big Cats page</a>
 
 
 </body>
@@ -59,8 +67,12 @@
 <br>
 <br>
 
-<footer>
+<footer role="contentinfo">
+<address> Contact owner and publisher: Jamesmk23 at hotmail.co.uk</a></address>
 <small>Copyright &copy;2020 JK. </small></p>
+<br>
+<br>
+<a href="#start">TOP</a>
 </footer>
 
 
@@ -82,6 +94,12 @@ margin 0 10%;
 font-family: sans-serif;
 }
 
+.center {
+text-align:center;
+display: block;
+margin: auto auto;
+}
+
 h1{
 text-align: center;
 font-family:serif;
@@ -99,13 +117,8 @@ font-size: 1em:
 h3 {
 display:inline;
 }
- 
-.center {
-text-align:center;
-margin: auto auto;
- }
- 
+
 ul {
- list-style-type:none;
- }
+list-style-type:none;
+}
 </style>
